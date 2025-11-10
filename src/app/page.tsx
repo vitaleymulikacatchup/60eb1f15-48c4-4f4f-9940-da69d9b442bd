@@ -11,7 +11,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Crown, Star, Users, MessageSquare, Award, HelpCircle, Phone } from "lucide-react";
+import { Crown, Star, Users, MessageSquare, Award, HelpCircle, Phone, Linkedin, Mail } from "lucide-react";
 
 export default function Home() {
   return (
@@ -126,8 +126,8 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/g70d8c781afcb2cc8611aa602b0341dcb2d884506451dddf22592debd6953189d1f3cc63219272588f38035d17c96ca11c6af8f3256f686bef289c167cf360ddf_1280.jpg",
               imageAlt: "Portrait of Alexander Sterling",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/alexander" },
-                { icon: "Mail", url: "mailto:manager@azurehotel.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/alexander" },
+                { icon: Mail, url: "mailto:manager@azurehotel.com" }
               ]
             },
             {
@@ -138,8 +138,8 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/g8177ddb7e7a7f6d831d4ff88e3f0fa5724ae630b3a710af96671fa4c9047468e4b6cfad8f4f228bc2f773d528af8990e4e37b347cabd76167a250bbbec47c2af_1280.jpg",
               imageAlt: "Portrait of Isabella Chen",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/isabella" },
-                { icon: "Phone", url: "tel:+1234567890" }
+                { icon: Linkedin, url: "https://linkedin.com/in/isabella" },
+                { icon: Phone, url: "tel:+1234567890" }
               ]
             }
           ]}
