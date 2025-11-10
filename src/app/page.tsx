@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -211,7 +211,7 @@ export default function Home() {
             "https://pixabay.com/get/ge6f30cdb6137bfbb60bf773fba140c3bd50e3943fc3bb51696b640464db25ac31df98c43c794d64eee3f572fa7adef9557246a1bfbc00dd915a1216d75f6a450_1280.jpg",
             "https://pixabay.com/get/g84a64e072182f4b0513ea5377a74d499deb7b30480a7626703c5d0f09d60dd52a7b52d1a9ab962494b5ffa75b26691c0300345abd4f929ec81446d6846dbf535_1280.jpg",
             "https://pixabay.com/get/gf4ea46685073950ed3b74205dd7e897724307c637589df1e32b56205adffd388f7795ce81ee5d616ed7ce96fd5c70c0ddb28ae97c7575d8e9d759ccb7fc644a3_1280.jpg"
-          ]
+          ]}
           speed={35}
           showCard={true}
         />
